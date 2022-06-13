@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c11cddcb8c008e48bc86d2dce654c8a, type: 3}
+  m_Name: EasyMonster
+  m_EditorClassIdentifier: 
+  _enemyStruct:
+    EnemyType: 1
+    EnemyState: 0
+    EnemySpeed: 0.2
+    EnemyBaseSpeed: 1
+    EnemyHealth: 4
+    EnemyBaseHealth: 4
+    EnemyDamage: 1
+    EnemyCount: 0
+    audioClips:
+    - {fileID: 8300000, guid: 438efd45cd4fa004db8a6e383ed8b36e, type: 3}
+    - {fileID: 8300000, guid: 06f3983785e7c16469757a2362a3c775, type: 3}
+    - {fileID: 8300000, guid: 4b959d6bd4e0d7042a7a7b6ecb55cd95, type: 3}
+    - {fileID: 8300000, guid: 9e132916f2ff3f243b58cc2876c79435, type: 3}

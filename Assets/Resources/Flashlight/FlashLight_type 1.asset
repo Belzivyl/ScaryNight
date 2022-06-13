@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bae3a32e3bde4d4598ca01e4a8ee520, type: 3}
+  m_Name: FlashLight_type 1
+  m_EditorClassIdentifier: 
+  _flashLightStruct:
+    FlashLightType: 0
+    EnemySlowDown: 0.1
+    maxFlashLightDamage: 10
+    minFlashLightDamage: 0
+    AttackCooldown: 1
+    flashLightBatteryCapacity: 100
+    MaxFlashLightBatteryCount: 0
+    CurrentFlashLightBatteryCount: 0
+    autoBatteryReduce: 0
+    batteryReduceSpeed: 0.1
+    autoBatteryIncrease: 0
+    batteryIncreaseSpeed: 0.6
+    energyChangeFrequency: 0.1
+    followSpeed: 0
+    offset: {x: 0, y: 0, z: 0, w: 0}
+    toggleOnWaitPercentage: 0
+    minBatteryLife: 0
+    maxBatteryLife: 10
+    toggleOnOff: {fileID: 0}
+    buzzSound: {fileID: 0}
+    reloadBattery: {fileID: 0}
+    volumetricLightMat: {fileID: 2100000, guid: f1295383b92350a43804156f8dad9bb4, type: 2}
+    FlashlightCookie: {fileID: 2800000, guid: 3748078256dc9bb42972cbab0ae2378b, type: 3}
+    lightComponent: {fileID: 0}
+    LightColor: {r: 0.9622642, g: 0.7746224, b: 0.4765931, a: 0}
+    DefaultIntensity: 7
+    DefaultOpacity: 0.28
+    minimumIntensity: 0.05
+    minimumOpacity: 0.05
+    currentBatteryLife: 10
+    flashLightOn: 0
+    outOfEnergy: 0

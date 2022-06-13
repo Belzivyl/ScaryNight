@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa6fcabc7f5d72459b8ea23660e183c, type: 3}
+  m_Name: Player data
+  m_EditorClassIdentifier: 
+  _playerStruct:
+    CurrentHP: 4
+    MaxHP: 4
+    HealRate: 0
+    CurrentTurnSpeed: 1
+    MaxTurnSpeed: 1
+    MaxTurnAxisX: 90
+    MinTurnAxisX: -90
+    MaxTurnAxisY: 35
+    MinTurnAxisY: -15
+    BloodMaskMaterial: {fileID: 2100000, guid: ff99fe6430f960746b5782c5a37b9a30, type: 2}
